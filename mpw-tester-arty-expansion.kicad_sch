@@ -1,0 +1,20 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 88a8ff55-a904-4d46-8101-409d0885e9f4)
+
+  (paper "User" 558.8 355.6)
+
+  (title_block
+    (title "MPW tester Arty expansion")
+    (date "2022-12-02")
+    (rev "0.0.99")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
