@@ -385,8 +385,6 @@
         "microvia_drill": 0.1,
         "name": "50Ohm-se",
         "nets": [
-          "/ADJ1",
-          "/ADJ2",
           "/ARTY_CS",
           "/ARTY_MEM_CS",
           "/ARTY_MEM_MISO",
@@ -478,8 +476,6 @@
           "/VDDA1",
           "/VDDA2",
           "/VDDIO",
-          "/VOUT1",
-          "/VOUT2",
           "/XCLK_10MHz",
           "/XIN",
           "/XOUT",
