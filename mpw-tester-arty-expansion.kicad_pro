@@ -44,8 +44,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.508
+          "45_degree_only": true,
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -488,7 +488,6 @@
           "Net-(D2-Pad2)",
           "Net-(D3-Pad2)",
           "Net-(D4-Pad2)",
-          "Net-(J4-Pad1)",
           "Net-(Q1-Pad3)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
