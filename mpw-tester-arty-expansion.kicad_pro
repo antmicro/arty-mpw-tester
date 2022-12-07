@@ -484,15 +484,12 @@
           "/~{TX_LED}",
           "/~{UART_EN}",
           "AGND",
-          "Net-(C33-Pad1)",
           "Net-(D1-Pad2)",
           "Net-(D2-Pad2)",
           "Net-(D3-Pad2)",
           "Net-(D4-Pad2)",
           "Net-(J4-Pad1)",
-          "Net-(Q1-Pad3)",
-          "Net-(R14-Pad1)",
-          "Net-(R18-Pad2)"
+          "Net-(Q1-Pad3)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
