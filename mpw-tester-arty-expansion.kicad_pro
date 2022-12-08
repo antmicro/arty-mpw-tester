@@ -443,7 +443,6 @@
           "/EN_VOUT2",
           "/FTDI_3V3",
           "/FTDI_RESET",
-          "/GPIO",
           "/MEM.SCK",
           "/MEM.SI",
           "/MEM.SO",
