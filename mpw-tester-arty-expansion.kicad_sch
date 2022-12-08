@@ -4050,8 +4050,8 @@
     )
   )
 
-  (bus_alias "SPI_FLASH" (members "~{CS}" "SCK" "SI" "SO" "~{WP}" "~{HOLD}"))
   (bus_alias "SPI" (members "~{CS}" "MISO" "MOSI" "SCK"))
+  (bus_alias "SPI_FLASH" (members "~{CS}" "SCK" "SI" "SO" "~{WP}" "~{HOLD}"))
   (junction (at 313.69 42.545) (diameter 0) (color 0 0 0 0)
     (uuid 00903c71-bd6e-431e-84ba-e1c2dc8d3433)
   )
@@ -11507,7 +11507,7 @@
     (property "Value" "FT232HQ" (id 1) (at 113.03 19.6819 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "antmicro-footprints:QFN-48-1EP_6x6mm" (id 2) (at 118.745 111.76 0)
+    (property "Footprint" "antmicro-footprints:QFN-48-1EP_7x7mm" (id 2) (at 118.745 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf" (id 3) (at 136.525 114.3 0)
@@ -13537,7 +13537,7 @@
       (reference "U1") (unit 1) (value "SN74LVC1G125DCKR") (footprint "antmicro-footprints:SOT-353")
     )
     (path "/a0c2fa84-fc21-44d2-8ce1-fce5d439b224"
-      (reference "U2") (unit 1) (value "FT232HQ") (footprint "antmicro-footprints:QFN-48-1EP_6x6mm")
+      (reference "U2") (unit 1) (value "FT232HQ") (footprint "antmicro-footprints:QFN-48-1EP_7x7mm")
     )
     (path "/e502d386-c8b8-460b-bee6-05a8179e5cc1"
       (reference "U3") (unit 1) (value "SN74LVC1G125DCKR") (footprint "antmicro-footprints:SOT-353")
