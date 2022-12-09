@@ -55,7 +55,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|137280001|66210001|43cd0f8c-9021-4aa9-8d64-cca72ee0d7ac|908afe16-39e6-401a-8764-8dcc3295de9c",
+        "courtyards_overlap|139800001|66210001|908afe16-39e6-401a-8764-8dcc3295de9c|fb745944-218f-43c5-b5a0-361974a5b9ff",
+        "courtyards_overlap|145480001|66210001|5a21274a-af56-4bc3-89e0-d671a02ab7a1|dd08f42c-8d5d-401e-8f32-4ef76bfdd543",
+        "courtyards_overlap|148000001|66210001|3aa40201-805a-4217-98c4-7ceb7f6ef582|dd08f42c-8d5d-401e-8f32-4ef76bfdd543",
+        "courtyards_overlap|150560001|66210001|3aa40201-805a-4217-98c4-7ceb7f6ef582|98b45b79-7ff9-43dd-8113-2180091b6b1f"
+      ],
       "meta": {
         "version": 2
       },
@@ -112,7 +118,7 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.15,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
