@@ -6,8 +6,8 @@
 
   (title_block
     (title "MPW tester Arty expansion")
-    (date "2022-12-02")
-    (rev "0.0.99")
+    (date "2022-12-12")
+    (rev "1.0.0")
   )
 
   (lib_symbols
