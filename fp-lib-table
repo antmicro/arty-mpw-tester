@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "mpw-tester-arty-expansion-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/mpw-tester-arty-expansion-footprints")(options "")(descr ""))
+  (lib (name "arty-mpw-tester-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/arty-mpw-tester-footprints")(options "")(descr ""))
 )

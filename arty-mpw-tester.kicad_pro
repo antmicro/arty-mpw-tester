@@ -481,7 +481,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mpw-tester-arty-expansion.kicad_pro",
+    "filename": "arty-mpw-tester.kicad_pro",
     "version": 1
   },
   "net_settings": {

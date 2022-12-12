@@ -2,7 +2,7 @@
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
-![MPW tester Arty](/img/mpw-tester-arty-expansion.png)
+![MPW tester Arty](/img/arty-mpw-tester.png)
 
 ### Overview
 
