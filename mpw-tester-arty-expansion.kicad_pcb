@@ -9246,31 +9246,6 @@
       ) (layer "F.Mask") (width 0.01) (fill solid) (tstamp e585cb19-7cc7-462e-bb8f-d0878a675c4e))
   )
 
-  (footprint "antmicro-footprints:ARTY_A7" (layer "F.Cu")
-    (tedit 0) (tstamp b6ee36f8-b8c6-480e-b3c6-9bedca1abec0)
-    (at 150 100)
-    (property "MPN" "410-319")
-    (property "Manufacturer" "Digilent")
-    (property "Sheetfile" "mpw-tester-arty-expansion.kicad_sch")
-    (property "Sheetname" "")
-    (property "exclude_from_bom" "")
-    (path "/7e4dfee3-08d6-4384-a4c4-1ca739181bcb")
-    (attr exclude_from_bom)
-    (fp_text reference "M1" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 0.65 0.65) (thickness 0.15)))
-      (tstamp 28e6f7bb-72e7-4622-9849-5baf9cb1bad8)
-    )
-    (fp_text value "Arty_A7" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 0.65 0.65) (thickness 0.15)))
-      (tstamp 83e9aa21-5b2c-408c-b099-10f4f38995ce)
-    )
-    (model "${ANT3DMDL}/Arty Rev C.stp"
-      (offset (xyz 0.55 24.6 -13.2))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
-  )
-
   (footprint "mpw-tester-arty-expansion-footprints:ARTY_A7_SHIELD" locked (layer "F.Cu")
     (tedit 58AB60FC) (tstamp bdf22a22-86cd-40b5-81fc-3712142af307)
     (at 150 100)
