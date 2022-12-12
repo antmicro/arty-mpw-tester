@@ -4638,8 +4638,8 @@
     )
   )
 
-  (bus_alias "SPI" (members "~{CS}" "MISO" "MOSI" "SCK"))
   (bus_alias "SPI_FLASH" (members "~{CS}" "SCK" "SI" "SO" "~{WP}" "~{HOLD}"))
+  (bus_alias "SPI" (members "~{CS}" "MISO" "MOSI" "SCK"))
   (junction (at 313.69 42.545) (diameter 0) (color 0 0 0 0)
     (uuid 00903c71-bd6e-431e-84ba-e1c2dc8d3433)
   )
