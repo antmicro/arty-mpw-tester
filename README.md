@@ -8,7 +8,7 @@ Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
 This repository contains open hardware design files for a simple expansion board compatible with [Digilent Arty A7](https://digilent.com/shop/arty-a7-artix-7-fpga-development-board/) development kit.
 This board connects IO signals from the Xilinx Artix FPGA located on the Arty board to an open hardware [Caravel](https://github.com/efabless/caravel_board) breakout board.
-The Caravel breakout board allows testing ASIC designs fabricated in Multi Project Wafer (MPW) shuttles and fabricated with one of the available open Process Design Kits (PDKs).
+The Caravel breakout board allows testing ASIC designs prepared for Multi Project Wafer (MPW) shuttles and fabricated with one of the available open Process Design Kits (PDKs).
 
 You can learn more about Open Shuttle Program by visiting this [link](https://efabless.com/open_shuttle_program).
 
