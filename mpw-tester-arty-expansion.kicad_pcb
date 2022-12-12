@@ -15644,7 +15644,7 @@
   (gr_text "MPW tester Arty ext." (at 162.55 75.35) (layer "F.Cu") (tstamp b847d9bb-433c-438c-8540-65a0e1fbb9d8)
     (effects (font (size 0.85 0.85) (thickness 0.18)) (justify left))
   )
-  (gr_text "PCB SHA deafbeef" (at 138.8 126.9) (layer "B.SilkS") (tstamp 9abbee1d-4d58-4905-8fdf-27e3fd14eaaa)
+  (gr_text "PCB SHA deadbeef" (at 138.8 126.9) (layer "B.SilkS") (tstamp 9abbee1d-4d58-4905-8fdf-27e3fd14eaaa)
     (effects (font (size 0.85 0.85) (thickness 0.18)) (justify mirror))
   )
   (gr_text "DIS" (at 131.5 116.6) (layer "F.SilkS") (tstamp 0f995c6f-fe74-4d37-98e1-918c19d77bed)
