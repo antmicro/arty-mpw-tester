@@ -8072,7 +8072,7 @@
     (zone (net 0) (net_name "") (layers *.Adhes *.Paste *.SilkS *.Mask "F.Cu" "In1.Cu" "B.Cu") (tstamp 9c36b8df-e2ec-4b87-9c1d-00fc59d1c5e4) (name "Breakout board pop area") (hatch full 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -15641,11 +15641,14 @@
   (gr_text "Rev. 1.0.0" (at 162.55 76.75) (layer "F.Cu") (tstamp 799b786d-9f89-48df-9f79-8e557953efe6)
     (effects (font (size 0.85 0.85) (thickness 0.18)) (justify left))
   )
-  (gr_text "MPW tester Arty ext." (at 162.55 75.35) (layer "F.Cu") (tstamp b847d9bb-433c-438c-8540-65a0e1fbb9d8)
+  (gr_text "Arty MPW tester" (at 162.55 75.35) (layer "F.Cu") (tstamp b847d9bb-433c-438c-8540-65a0e1fbb9d8)
     (effects (font (size 0.85 0.85) (thickness 0.18)) (justify left))
   )
-  (gr_text "PCB SHA deadbeef" (at 138.8 126.9) (layer "B.SilkS") (tstamp 9abbee1d-4d58-4905-8fdf-27e3fd14eaaa)
-    (effects (font (size 0.85 0.85) (thickness 0.18)) (justify mirror))
+  (gr_text "Arty MPW tester\nRev. 1.0.0 12/2022" (at 167.75 108.5 90) (layer "B.SilkS") (tstamp 068273d4-f3a1-4115-b2db-0cafa81e9311)
+    (effects (font (size 0.85 0.85) (thickness 0.18)) (justify left mirror))
+  )
+  (gr_text "PCB SHA: deadbeef" (at 172.55 108.5 90) (layer "B.SilkS") (tstamp e44a96a5-52ff-4b33-8a9f-c5bcf69f5e53)
+    (effects (font (size 0.85 0.85) (thickness 0.18)) (justify left mirror))
   )
   (gr_text "DIS" (at 131.5 116.6) (layer "F.SilkS") (tstamp 0f995c6f-fe74-4d37-98e1-918c19d77bed)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
@@ -15713,7 +15716,7 @@
   (gr_text "Rev. 1.0.0" (at 162.55 76.75) (layer "F.Mask") (tstamp 273d34cd-a640-4b4e-9054-e7530fa40237)
     (effects (font (size 0.85 0.85) (thickness 0.18)) (justify left))
   )
-  (gr_text "MPW tester Arty ext." (at 162.55 75.35) (layer "F.Mask") (tstamp 58cd0c77-cf3f-4e44-98cb-ff73b57b5ee3)
+  (gr_text "Arty MPW tester" (at 162.55 75.35) (layer "F.Mask") (tstamp 58cd0c77-cf3f-4e44-98cb-ff73b57b5ee3)
     (effects (font (size 0.85 0.85) (thickness 0.18)) (justify left))
   )
   (gr_text "Dielectric 3" (at 13.7 177.485) (layer "Dwgs.User") (tstamp 001f2803-01e2-4853-8d9b-3d6dd1443fd0)
@@ -17634,7 +17637,7 @@
   (zone (net 0) (net_name "") (layers "In1.Cu" "In2.Cu") (tstamp 451651e5-afc8-4054-a84c-e63cebc092af) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.15)
-    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -40411,7 +40414,7 @@
   (zone (net 0) (net_name "") (layers "In1.Cu" "In2.Cu") (tstamp 9787fc5a-44dc-41af-9552-8609008c94e5) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.15)
-    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
