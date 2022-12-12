@@ -3474,11 +3474,11 @@
     (at 167.4 73.8)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0.6096 -2.0955) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.3)))
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp e70dd811-7a7d-486c-a673-a5f369f2f5ff)
     )
     (fp_text value "LOGO" (at 0.9525 2.3241) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.3)))
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp abf98dba-9a73-410c-8e1f-07856b0f087b)
     )
     (fp_text user "G***" (at 0.6096 -2.0955) (layer "F.SilkS") hide
@@ -4841,11 +4841,11 @@
     (tags "Logo OSHW")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp f07dbb2b-dea8-4abe-8167-e8262c0e9137)
     )
     (fp_text value "OSHW-Logo_5.7x6mm_Copper" (at 0.75 0) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp f15a2f76-05ea-4328-a7e6-1097d0246c1c)
     )
     (fp_poly (pts
@@ -6271,11 +6271,11 @@
     (tags "Logo OSHW")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp 892e574f-7c42-4743-bcca-ad636ca27732)
     )
     (fp_text value "OSHW-Logo_5.7x6mm_Mask" (at 0.75 0) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp aa9aba9a-19a9-49a7-a88b-7d2300d534e7)
     )
     (fp_poly (pts
@@ -7823,7 +7823,7 @@
       (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp 4ee1b17c-f31e-4805-8dcd-99ce462e1946)
     )
-    (fp_text user "${REFERENCE}" (at 0 2.5 180 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 11.6 11.768 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6993b375-32f2-4f52-8d32-ff52b585cb21)
     )
@@ -8143,11 +8143,11 @@
     (at 167.4 73.8)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0.6096 -2.0955) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.3)))
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp 1a7e75fe-1512-48c4-9ed6-38d3c153e842)
     )
     (fp_text value "LOGO" (at 0.9525 2.3241) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.3)))
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp 150bb719-96c6-473d-bc2a-0dea6d0b3c1b)
     )
     (fp_text user "G***" (at 0.6096 -2.0955) (layer "F.SilkS") hide
@@ -9256,12 +9256,12 @@
     (property "exclude_from_bom" "")
     (path "/7e4dfee3-08d6-4384-a4c4-1ca739181bcb")
     (attr exclude_from_bom)
-    (fp_text reference "M1" (at 0 -0.5 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference "M1" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp 28e6f7bb-72e7-4622-9849-5baf9cb1bad8)
     )
-    (fp_text value "Arty_A7" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value "Arty_A7" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp 83e9aa21-5b2c-408c-b099-10f4f38995ce)
     )
     (model "${ANT3DMDL}/Arty Rev C.stp"
@@ -9287,14 +9287,14 @@
     (path "/75130991-9cd3-4acc-ba10-6eb5a93e9dde")
     (attr through_hole)
     (fp_text reference "J3" (at 0 -4) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp f0982f54-a370-4e98-b5bc-268ba141871f)
     )
-    (fp_text value "arty_chipKIT_connector" (at 0 0) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value "arty_chipKIT_connector" (at 0 0) (layer "F.Fab") hide
+      (effects (font (size 0.65 0.65) (thickness 0.15)))
       (tstamp 22b684bd-efc3-46ec-8c0c-b1c004cf5012)
     )
-    (fp_text user "${REFERENCE}" (at 0 -4) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -26.3 -13.1) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 22882e7e-1134-48f5-920b-ee7d8c2a227f)
     )
@@ -12125,11 +12125,11 @@
     (path "/f0257113-a578-4db8-ae24-66bb542a455d")
     (attr smd)
     (fp_text reference "R35" (at 0 2.2 90) (layer "B.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (effects (font (size 0.65 0.65) (thickness 0.15)) (justify mirror))
       (tstamp 8119cc13-5f91-46ca-ba17-27a6f404b0fb)
     )
     (fp_text value "R_0R_0603" (at 0 -1.9 90) (layer "B.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+      (effects (font (size 0.65 0.65) (thickness 0.15)) (justify mirror))
       (tstamp 4d825c05-d251-4222-a569-25ef6c5e6c2a)
     )
     (fp_line (start -0.3 -0.3) (end 0.3 -0.3) (layer "B.SilkS") (width 0.12) (tstamp 1683904c-6be1-47bd-a64f-3f99fc91f25b))
