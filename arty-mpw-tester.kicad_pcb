@@ -380,6 +380,33 @@
     )
   )
 
+  (footprint "arty-mpw-tester-footprints:Jumper_1x2_P2.54" (layer "F.Cu")
+    (tedit 5DFCE0F0) (tstamp 09b6af5c-6cba-40db-a7a4-81840ec41dfe)
+    (at 146.94 78.9)
+    (attr board_only exclude_from_bom)
+    (fp_text reference "REF**" (at 1.37 -2) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3f59f49-17d3-437a-b037-b63278f794dc)
+    )
+    (fp_text value "Jumper_1x2_P2.54" (at 1 2.5) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3b959f53-b96a-4a4b-887e-c7237419e219)
+    )
+    (fp_text user "${REFERENCE}" (at 1.2 0) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp de1770c5-26cd-4229-a71f-95e801ef67e4)
+    )
+    (fp_line (start -1.27 -1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 2798073f-8edb-427e-bfcd-2b833d28cdb8))
+    (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer "User.1") (width 0.1) (tstamp 3cd52ca8-1438-46c2-b622-c4bd51ffb229))
+    (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "User.1") (width 0.1) (tstamp 41150776-afeb-4470-9a33-16d81d0d803a))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 5856675a-9531-49aa-8383-607678451102))
+    (model "${KIPRJMOD}/lib/3d-models/Jumper_1x2_P2.54.step"
+      (offset (xyz 1.27 0 0.05))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (footprint "arty-mpw-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm" (layer "F.Cu")
     (tedit 622208CE) (tstamp 1246fae8-e359-4064-bcb9-7981ca1cbaf3)
     (at 124.7 67.73)
@@ -423,6 +450,33 @@
       (offset (xyz 2.5 0 1.4))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
+    )
+  )
+
+  (footprint "arty-mpw-tester-footprints:Jumper_1x2_P2.54" (layer "F.Cu")
+    (tedit 5DFCE0F0) (tstamp 17556c4c-04a2-4604-811a-c3ab73c50108)
+    (at 149.52 67.73 -90)
+    (attr board_only exclude_from_bom)
+    (fp_text reference "REF**" (at 1.37 -2 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3f59f49-17d3-437a-b037-b63278f794dc)
+    )
+    (fp_text value "Jumper_1x2_P2.54" (at 1 2.5 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3b959f53-b96a-4a4b-887e-c7237419e219)
+    )
+    (fp_text user "${REFERENCE}" (at 1.2 0 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp de1770c5-26cd-4229-a71f-95e801ef67e4)
+    )
+    (fp_line (start -1.27 -1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 2798073f-8edb-427e-bfcd-2b833d28cdb8))
+    (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer "User.1") (width 0.1) (tstamp 3cd52ca8-1438-46c2-b622-c4bd51ffb229))
+    (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "User.1") (width 0.1) (tstamp 41150776-afeb-4470-9a33-16d81d0d803a))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 5856675a-9531-49aa-8383-607678451102))
+    (model "${KIPRJMOD}/lib/3d-models/Jumper_1x2_P2.54.step"
+      (offset (xyz 1.27 0 0.05))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2098,6 +2152,33 @@
       ) (layer "F.SilkS") (width 0) (fill solid) (tstamp fdf56767-25a6-4150-aefa-c5124491c981))
   )
 
+  (footprint "arty-mpw-tester-footprints:Jumper_1x2_P2.54" (layer "F.Cu")
+    (tedit 5DFCE0F0) (tstamp 43127961-0a46-4614-9996-7ec7a07afbbf)
+    (at 141.32 67.73 -90)
+    (attr board_only exclude_from_bom)
+    (fp_text reference "REF**" (at 1.37 -2 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3f59f49-17d3-437a-b037-b63278f794dc)
+    )
+    (fp_text value "Jumper_1x2_P2.54" (at 1 2.5 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3b959f53-b96a-4a4b-887e-c7237419e219)
+    )
+    (fp_text user "${REFERENCE}" (at 1.2 0 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp de1770c5-26cd-4229-a71f-95e801ef67e4)
+    )
+    (fp_line (start -1.27 -1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 2798073f-8edb-427e-bfcd-2b833d28cdb8))
+    (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer "User.1") (width 0.1) (tstamp 3cd52ca8-1438-46c2-b622-c4bd51ffb229))
+    (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "User.1") (width 0.1) (tstamp 41150776-afeb-4470-9a33-16d81d0d803a))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 5856675a-9531-49aa-8383-607678451102))
+    (model "${KIPRJMOD}/lib/3d-models/Jumper_1x2_P2.54.step"
+      (offset (xyz 1.27 0 0.05))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (footprint "arty-mpw-tester-footprints:PinHeader_1x2_P2.54_Drill0.9mm" (layer "F.Cu")
     (tedit 5DFCE0F0) (tstamp 43cd0f8c-9021-4aa9-8d64-cca72ee0d7ac)
     (at 136.26 67.73 -90)
@@ -2201,6 +2282,33 @@
       (net 31 "/~{UART_EN}") (pinfunction "7") (pintype "passive") (tstamp 87ab864e-f9d3-4c41-b46a-7e1b6a2a0974))
     (model "${KIPRJMOD}/lib/3d-models/C&K_Components_-_JS202011JCQN.step"
       (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "arty-mpw-tester-footprints:Jumper_1x2_P2.54" (layer "F.Cu")
+    (tedit 5DFCE0F0) (tstamp 44d94c91-3b63-4aa1-b6cf-c8f7fba897fd)
+    (at 138.8 67.73 -90)
+    (attr board_only exclude_from_bom)
+    (fp_text reference "REF**" (at 1.37 -2 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3f59f49-17d3-437a-b037-b63278f794dc)
+    )
+    (fp_text value "Jumper_1x2_P2.54" (at 1 2.5 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3b959f53-b96a-4a4b-887e-c7237419e219)
+    )
+    (fp_text user "${REFERENCE}" (at 1.2 0 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp de1770c5-26cd-4229-a71f-95e801ef67e4)
+    )
+    (fp_line (start -1.27 -1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 2798073f-8edb-427e-bfcd-2b833d28cdb8))
+    (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer "User.1") (width 0.1) (tstamp 3cd52ca8-1438-46c2-b622-c4bd51ffb229))
+    (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "User.1") (width 0.1) (tstamp 41150776-afeb-4470-9a33-16d81d0d803a))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 5856675a-9531-49aa-8383-607678451102))
+    (model "${KIPRJMOD}/lib/3d-models/Jumper_1x2_P2.54.step"
+      (offset (xyz 1.27 0 0.05))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -9142,6 +9250,60 @@
       ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 98864f13-c162-4c18-8392-10659a1e41d6))
   )
 
+  (footprint "arty-mpw-tester-footprints:Jumper_1x2_P2.54" (layer "F.Cu")
+    (tedit 5DFCE0F0) (tstamp c1d2c359-295a-4dd8-a5e4-99e6f8f593ba)
+    (at 152.08 67.73 -90)
+    (attr board_only exclude_from_bom)
+    (fp_text reference "REF**" (at 1.37 -2 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3f59f49-17d3-437a-b037-b63278f794dc)
+    )
+    (fp_text value "Jumper_1x2_P2.54" (at 1 2.5 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3b959f53-b96a-4a4b-887e-c7237419e219)
+    )
+    (fp_text user "${REFERENCE}" (at 1.2 0 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp de1770c5-26cd-4229-a71f-95e801ef67e4)
+    )
+    (fp_line (start -1.27 -1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 2798073f-8edb-427e-bfcd-2b833d28cdb8))
+    (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer "User.1") (width 0.1) (tstamp 3cd52ca8-1438-46c2-b622-c4bd51ffb229))
+    (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "User.1") (width 0.1) (tstamp 41150776-afeb-4470-9a33-16d81d0d803a))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 5856675a-9531-49aa-8383-607678451102))
+    (model "${KIPRJMOD}/lib/3d-models/Jumper_1x2_P2.54.step"
+      (offset (xyz 1.27 0 0.05))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "arty-mpw-tester-footprints:Jumper_1x2_P2.54" (layer "F.Cu")
+    (tedit 5DFCE0F0) (tstamp c46df860-d9b1-42bf-8e59-053a7c9378c9)
+    (at 147 67.73 -90)
+    (attr board_only exclude_from_bom)
+    (fp_text reference "REF**" (at 1.37 -2 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3f59f49-17d3-437a-b037-b63278f794dc)
+    )
+    (fp_text value "Jumper_1x2_P2.54" (at 1 2.5 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3b959f53-b96a-4a4b-887e-c7237419e219)
+    )
+    (fp_text user "${REFERENCE}" (at 1.2 0 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp de1770c5-26cd-4229-a71f-95e801ef67e4)
+    )
+    (fp_line (start -1.27 -1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 2798073f-8edb-427e-bfcd-2b833d28cdb8))
+    (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer "User.1") (width 0.1) (tstamp 3cd52ca8-1438-46c2-b622-c4bd51ffb229))
+    (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "User.1") (width 0.1) (tstamp 41150776-afeb-4470-9a33-16d81d0d803a))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 5856675a-9531-49aa-8383-607678451102))
+    (model "${KIPRJMOD}/lib/3d-models/Jumper_1x2_P2.54.step"
+      (offset (xyz 1.27 0 0.05))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (footprint "arty-mpw-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm" (layer "F.Cu")
     (tedit 622208CE) (tstamp c5b31089-3b06-41d7-8d4a-ffe21f27b073)
     (at 124.7 70.9)
@@ -9185,6 +9347,60 @@
       (offset (xyz 2.5 0 1.4))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
+    )
+  )
+
+  (footprint "arty-mpw-tester-footprints:Jumper_1x2_P2.54" (layer "F.Cu")
+    (tedit 5DFCE0F0) (tstamp c67ff116-9785-4880-a765-4ceee1d7c503)
+    (at 144.46 67.73 -90)
+    (attr board_only exclude_from_bom)
+    (fp_text reference "REF**" (at 1.37 -2 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3f59f49-17d3-437a-b037-b63278f794dc)
+    )
+    (fp_text value "Jumper_1x2_P2.54" (at 1 2.5 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3b959f53-b96a-4a4b-887e-c7237419e219)
+    )
+    (fp_text user "${REFERENCE}" (at 1.2 0 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp de1770c5-26cd-4229-a71f-95e801ef67e4)
+    )
+    (fp_line (start -1.27 -1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 2798073f-8edb-427e-bfcd-2b833d28cdb8))
+    (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer "User.1") (width 0.1) (tstamp 3cd52ca8-1438-46c2-b622-c4bd51ffb229))
+    (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "User.1") (width 0.1) (tstamp 41150776-afeb-4470-9a33-16d81d0d803a))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 5856675a-9531-49aa-8383-607678451102))
+    (model "${KIPRJMOD}/lib/3d-models/Jumper_1x2_P2.54.step"
+      (offset (xyz 1.27 0 0.05))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "arty-mpw-tester-footprints:Jumper_1x2_P2.54" (layer "F.Cu")
+    (tedit 5DFCE0F0) (tstamp c93b10bb-9826-402d-9611-c4c4369faddf)
+    (at 136.26 67.73 -90)
+    (attr board_only exclude_from_bom)
+    (fp_text reference "REF**" (at 1.37 -2 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3f59f49-17d3-437a-b037-b63278f794dc)
+    )
+    (fp_text value "Jumper_1x2_P2.54" (at 1 2.5 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3b959f53-b96a-4a4b-887e-c7237419e219)
+    )
+    (fp_text user "${REFERENCE}" (at 1.2 0 90) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp de1770c5-26cd-4229-a71f-95e801ef67e4)
+    )
+    (fp_line (start -1.27 -1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 2798073f-8edb-427e-bfcd-2b833d28cdb8))
+    (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer "User.1") (width 0.1) (tstamp 3cd52ca8-1438-46c2-b622-c4bd51ffb229))
+    (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "User.1") (width 0.1) (tstamp 41150776-afeb-4470-9a33-16d81d0d803a))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 5856675a-9531-49aa-8383-607678451102))
+    (model "${KIPRJMOD}/lib/3d-models/Jumper_1x2_P2.54.step"
+      (offset (xyz 1.27 0 0.05))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -9976,6 +10192,33 @@
     )
   )
 
+  (footprint "arty-mpw-tester-footprints:Jumper_1x2_P2.54" (layer "F.Cu")
+    (tedit 5DFCE0F0) (tstamp e1395071-f708-439d-887d-52588468e392)
+    (at 124.7 70.9)
+    (attr board_only exclude_from_bom)
+    (fp_text reference "REF**" (at 1.37 -2) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3f59f49-17d3-437a-b037-b63278f794dc)
+    )
+    (fp_text value "Jumper_1x2_P2.54" (at 1 2.5) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3b959f53-b96a-4a4b-887e-c7237419e219)
+    )
+    (fp_text user "${REFERENCE}" (at 1.2 0) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp de1770c5-26cd-4229-a71f-95e801ef67e4)
+    )
+    (fp_line (start -1.27 -1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 2798073f-8edb-427e-bfcd-2b833d28cdb8))
+    (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer "User.1") (width 0.1) (tstamp 3cd52ca8-1438-46c2-b622-c4bd51ffb229))
+    (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "User.1") (width 0.1) (tstamp 41150776-afeb-4470-9a33-16d81d0d803a))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 5856675a-9531-49aa-8383-607678451102))
+    (model "${KIPRJMOD}/lib/3d-models/Jumper_1x2_P2.54.step"
+      (offset (xyz 1.27 0 0.05))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (footprint "kibuzzard-63909232" (layer "F.Cu")
     (tedit 63909232) (tstamp e5c66e6a-7bb5-4fa9-8787-eefc70792083)
     (at 169.5 70.6 90)
@@ -10438,6 +10681,33 @@
         (xy 1.51784 -0.590444)
         (xy -1.51784 -0.590444)
       ) (layer "F.SilkS") (width 0) (fill solid) (tstamp f64ee618-afb8-4892-81b9-13f16f895e2f))
+  )
+
+  (footprint "arty-mpw-tester-footprints:Jumper_1x2_P2.54" (layer "F.Cu")
+    (tedit 5DFCE0F0) (tstamp f467890c-a0ea-4671-8cef-6389d863f125)
+    (at 124.7 67.73)
+    (attr board_only exclude_from_bom)
+    (fp_text reference "REF**" (at 1.37 -2) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d3f59f49-17d3-437a-b037-b63278f794dc)
+    )
+    (fp_text value "Jumper_1x2_P2.54" (at 1 2.5) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3b959f53-b96a-4a4b-887e-c7237419e219)
+    )
+    (fp_text user "${REFERENCE}" (at 1.2 0) (layer "User.1") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp de1770c5-26cd-4229-a71f-95e801ef67e4)
+    )
+    (fp_line (start -1.27 -1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 2798073f-8edb-427e-bfcd-2b833d28cdb8))
+    (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer "User.1") (width 0.1) (tstamp 3cd52ca8-1438-46c2-b622-c4bd51ffb229))
+    (fp_line (start -1.27 1.27) (end -1.27 -1.27) (layer "User.1") (width 0.1) (tstamp 41150776-afeb-4470-9a33-16d81d0d803a))
+    (fp_line (start 3.81 1.27) (end 3.81 -1.27) (layer "User.1") (width 0.1) (tstamp 5856675a-9531-49aa-8383-607678451102))
+    (model "${KIPRJMOD}/lib/3d-models/Jumper_1x2_P2.54.step"
+      (offset (xyz 1.27 0 0.05))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "arty-mpw-tester-footprints:caravel-breakout-flexypin" (layer "F.Cu")
