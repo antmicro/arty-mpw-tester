@@ -29,13 +29,16 @@ The Arty MPW tester can be supplied either from Arty or USB connector.
 Both power sources are always connected to the dual LDO via protection diodes.
 ```
 
+
+
+
+#### Fixed/dynamic LDO selection
+
 The Arty MPW tester features dual LDO supplying 1.8V and 3.3V rails.
 Each rail can be set to either:
 
-- fixed, supplying fixed 1.8V or 3.3V depending on rail
-- dynamic, allowing user set LDO voltage using I2C digipot
-
-#### Fixed/dynamic LDO selection
+- `FIXED` - supplying fixed 1.8V or 3.3V depending on rail
+- `DYNAMIC` - allowing user set LDO voltage using I2C digipot
 
 I2C digipot (`MCP4661-103E/ML`) is used to dynamically adjust 1.8V and 3.3V rail voltages.\
 Placing jumper on position `FIXED` on either 1.8V and/or 3.3V rail bypasses digipot and forces LDO into fixed voltage regulation on given rail.
@@ -45,7 +48,10 @@ Placing jumper on position `FIXED` on either 1.8V and/or 3.3V rail bypasses digi
 
 #### Rail EN control
 
-`LDO CTRL` switch connects either FTDI or Arty to the `EN1/EN2` pins of the dual LDO allowing for independent control over 1.8V and 3.3V rails.
+Both 3.3V and 1.8V rails can be enabled separately using `EN1` and `EN2` pins of the LDO.\
+`LDO CTRL` switch can be set in two positions:
+- `ARTY` - connects the Arty A7 board to the `EN1/2` pins of the dual LDO
+- `FTDI` - connects the FTDI to the `EN1/2` pins of the dual LDO
 
 ```{image} ../img/arty-mpw-tester-power-ctrl-selector.png
 ```
@@ -62,16 +68,22 @@ Using this header it is also possible to manually inject voltage into separate r
 ```{warning}
 This feature should be used only to supply Arty from Arty MPW tester.
 ```
-User can decide to connect USB 5V and Arty 5V rails. 
-This allows to supply Arty MPW tester and Arty from single USB-C connector.
+Switch allowing connection of the 5V USB and 5V Arty rails can be set in two positions:
+- `OPEN` - USB 5V and Arty 5V rails are separated
+- `CLOSED` - USB 5V and Arty 5V rails are connected, allowing to supply Arty from Arty MPW tester 
 
 ```{image} ../img/arty-mpw-tester-arty-usb-rail-switch.png
 ```
 
 ### USB UART
 
-FTDI used in design (FT230H) can be used in UART and MPSSE mode. For MPSSE mode `UART BUFFER` slide switch should be set to `DIS`.\
-In `DIS` position FTDI retains control over buffers. Setting this switch to `EN` forces buffer to be enabled.
+FTDI used in design (FT230H) can be used in UART and MPSSE mode. By default UART buffers are controlled by FTDI. User can select, by setting `UART BUFFER` switch to either:
+- `DIS` - control over UART buffers is retained by FTDI  
+- `EN` - forces UART buffers to be enabled
+
+```{note}
+For MPSSE mode `UART BUFFER` slide switch should be set to `DIS`.
+```
 
 ```{image} ../img/arty-mpw-tester-uart-buffer-switch.png
 ```
@@ -79,17 +91,15 @@ In `DIS` position FTDI retains control over buffers. Setting this switch to `EN`
 
 ### XCLK
 
-Clock supplied to the Caravel breakout can be sourced from two inputs:
-
-- Arty MPW tester builtin 10MHz clock (internal)
-- Arty IO42 pin (external)
-
-`XCLK` source selection can be done using `XCLK SEL` header:
+Clock supplied to the Caravel breakout can be sourced in two ways.\
+Using `XCLK SEL` header user can switch between:
+- `INT` - sourcing XCLK from onboard oscillator
+- `EXT` - sourcing XCLK from Arty IO42 pin
 
 ```{image} ../img/arty-mpw-tester-xclk-source-selection.png
 ```
 
-When internal `XCLK` source is selected user can enable and disable clock using `INT XCLK EN` header:
+When `XCLK SEL` is set to `INT` user can enable and disable onboard oscillator using `INT XCLK EN` header:
 
 ```{image} ../img/arty-mpw-tester-internal-oscillator-ctrl.png
 ```
@@ -120,3 +130,4 @@ Default configuration for the Arty MPW tester is as follows:
 Picture below presents default configuration for slide switches and jumpers
 
 ```{image} ../img/arty-mpw-tester-default-configuration.png
+```
