@@ -131,3 +131,76 @@ Picture below presents default configuration for slide switches and jumpers
 
 ```{image} ../img/arty-mpw-tester-default-configuration.png
 ```
+
+## Pinouts
+
+### Caravel - Arty interface
+
+| Caravel breakout 	| FPGA Pin 	| ChipKit pin 	| Special function 	|
+|------------------	|----------	|-------------	|------------------	|
+| IO00             	| R18      	| IO39        	|                  	|
+| IO01             	| P17      	| IO13        	| SPI MISO         	|
+| IO02             	| T18      	| IO38        	| SPI MOSI         	|
+| IO03             	| R17      	| IO12        	| SPI CS           	|
+| IO04             	| U17      	| IO37        	| SPI  SCK         	|
+| IO05             	| U18      	| IO11        	| Caravel RX       	|
+| IO06             	| N14      	| IO36        	| Caravel TX       	|
+| IO07             	| V17      	| IO10        	|                  	|
+| IO08             	| N16      	| IO35        	|                  	|
+| IO09             	| M16      	| IO09        	|                  	|
+| IO10             	| R16      	| IO34        	|                  	|
+| IO11             	| N15      	| IO08        	|                  	|
+| IO12             	| P15      	| IO33        	|                  	|
+| IO13             	| T16      	| IO07        	|                  	|
+| IO14             	| R15      	| IO32        	|                  	|
+| IO15             	| T15      	| IO06        	|                  	|
+| IO16             	| R13      	| IO31        	|                  	|
+| IO17             	| T14      	| IO05        	|                  	|
+| IO18             	| R11      	| IO30        	|                  	|
+| IO19             	| R12      	| IO04        	|                  	|
+| IO20             	| R10      	| IO29        	|                  	|
+| IO21             	| T11      	| IO03        	|                  	|
+| IO22             	| M13      	| IO28        	|                  	|
+| IO23             	| P14      	| IO02        	|                  	|
+| IO24             	| V16      	| IO27        	|                  	|
+| IO25             	| U16      	| IO01        	|                  	|
+| IO26             	| U11      	| IO26        	|                  	|
+| IO27             	| V15      	| IO00        	|                  	|
+| IO28             	| A3       	| A11         	|                  	|
+| IO29             	| D5       	| A5          	|                  	|
+| IO30             	| A4       	| A10         	|                  	|
+| IO31             	| D7       	| A4          	|                  	|
+| IO32             	| E5       	| A9          	|                  	|
+| IO33             	| E7       	| A3          	|                  	|
+| IO34             	| E6       	| A8          	|                  	|
+| IO35             	| C7       	| A2          	|                  	|
+| IO36             	| B6       	| A7          	|                  	|
+| IO37             	| D8       	| A1          	|                  	|
+| GPIO             	| M17      	| IO42        	|                  	|
+| FLASH SO         	| G1       	| MISO        	|                  	|
+| FLASH SCK        	| F1       	| SCK         	|                  	|
+| FLASH SI         	| H1       	| MOSI        	|                  	|
+| FLASH CS         	| C1       	| SS          	|                  	|
+
+### Caravel - FTDI interface
+
+| Caravel breakout 	| FTDI                	|
+|------------------	|---------------------	|
+| IO01             	| ADBUS2              	|
+| IO02             	| ADBUS1              	|
+| IO03             	| ADBUS3              	|
+| IO04             	| ADBUS0              	|
+| IO05             	| ADBUS0 (via buffer) 	|
+| IO06             	| ADBUS1 (via buffer) 	|
+
+### Control pins
+
+| Function      	| FTDI   	| FPGA Pin 	| ChipKit pin 	|
+|---------------	|--------	|----------	|-------------	|
+| LDO EN1 (3.3V)    | ACBUS5 	| F5       	| A0          	|
+| LDO EN2 (1.8V) 	| ACBUS6 	| B7       	| A6          	|
+| Caravel RESET 	| ACBUS1 	| N17      	| IO41        	|
+| UART buff EN  	| ACBUS0 	| -        	| -           	|
+| XLCK          	| -      	| P18      	| IO40        	|
+| DIGIPOT SCL   	| -      	| L18      	| SCL         	|
+| DIGIPOT SDA   	| -      	| M18      	| SDA         	|
