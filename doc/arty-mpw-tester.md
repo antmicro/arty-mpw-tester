@@ -11,6 +11,12 @@ The Arty MPW tester is simple expansion board compatible with Digilent Arty A7 d
 The hardware is open and can be found on GitHub:
 <https://github.com/antmicro/arty-mpw-tester/>
 
+Diagram below represents overview of whole board:
+```{image} ../img/arty-mpw-tester-diagram.png
+:width: 500px
+:align: center
+```
+
 The following instructions explain how to set up the board for MPW testing.
 
 ## Arty MPW tester configuration
