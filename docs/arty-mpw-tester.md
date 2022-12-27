@@ -1,7 +1,8 @@
-# Data Center DRAM Tester
+# Arty MPW tester
 
 ```{image} ../img/arty-mpw-tester.png
 ```
+&nbsp;
 
 The Arty MPW tester os simple expansion board compatible with Digilent Arty A7 development kit. This board connects IO signals from the Xilinx Artix FPGA located on the Arty board to an open hardware Caravel breakout board. The Caravel breakout board allows testing ASIC designs prepared for Multi Project Wafer (MPW) shuttles and fabricated with one of the available open Process Design Kits (PDKs).
 

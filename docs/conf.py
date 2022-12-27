@@ -128,12 +128,6 @@ htmlhelp_basename = _basic_filename
 html_static_path = ['build/documentation/_static/']
 
 doc_args = '--docs '
-#targets = ['zcu104', 'arty']
-targets = ['arty']
-
-for t in targets:
-    target_script = '../rowhammer_tester/targets/' + t + '.py'
-    os.system('python ' + target_script + ' ' + doc_args)
 
 # -- Options for LaTeX output --------------------------------------------------
 

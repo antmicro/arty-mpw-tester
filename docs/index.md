@@ -1,4 +1,4 @@
-# Welcome to Rowhammer Tester!
+# Welcome to Arty MPW tester!
 
 ```{toctree}
 :maxdepth: 2
@@ -8,7 +8,7 @@ general.md
 ```{toctree}
 :caption: Hardware
 :maxdepth: 2
-mpw-arty-teste.md
+arty-mpw-tester.md
 ```
 
 ```{toctree}
