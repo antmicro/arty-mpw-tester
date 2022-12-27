@@ -78,3 +78,5 @@ Default configuration for the Arty MPW tester is as follows:
 | Arty 5V - USB 5V  | DISCONNECT 
 
 Picture below presents default configuration for slide switches and jumpers
+
+```{image} ../img/arty-mpw-tester-default-configuration.png
