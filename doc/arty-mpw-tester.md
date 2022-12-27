@@ -19,7 +19,7 @@ Arty MPW tester was designed to give user flexibility in configuration of the te
 User can independently configure:
 
 - Power
-- FTDI to MPRJ UART connection (enable/disable)
+- FTDI with 2 SPI's and UART
 - Source for Caravel-breakout XCLK (internal oscillator / Arty IO42 pin)
 - Internal XCLK source (enable/disable)
 
@@ -65,7 +65,8 @@ Both 3.3V and 1.8V rails can be enabled separately using `EN1` and `EN2` pins of
 #### Individual rail connections
 
 Each of the power rails routed on Caravel breakout is exposed on `1x2 2.54mm` pin header allowing for selecting which rails are enabled.\
-Using this header it is also possible to manually inject voltage into separate rails
+Using this header it is also possible to manually inject voltage into separate rails.
+All 7 power rails are also connected to power monitors which allow measuring voltage and current used by Caravel breakout.
 
  ```{image} ../img/arty-mpw-tester-power-rails.png
 :width: 500px
@@ -84,22 +85,6 @@ Switch allowing connection of the 5V USB and 5V Arty rails can be set in two pos
 :width: 500px
 :align: center
 ```
-
-### USB UART
-
-FTDI used in design (FT230H) can be used in UART and MPSSE mode. By default UART buffers are controlled by FTDI. User can select, by setting `UART BUFFER` switch to either:
-- `DIS` - control over UART buffers is retained by FTDI  
-- `EN` - forces UART buffers to be enabled
-
-```{note}
-For MPSSE mode `UART BUFFER` slide switch should be set to `DIS`.
-```
-
-```{image} ../img/arty-mpw-tester-uart-buffer-switch.png
-:width: 500px
-:align: center
-```
-
 
 ### XCLK
 
@@ -140,7 +125,6 @@ Default configuration for the Arty MPW tester is as follows:
 | VDD 3.3V IO 	    |    	        |   YES     |
 | IN XCLK EN  	    |       	    |   NO      |
 | XCLK SEL    	    |          	    |   EXT     |
-| UART BUFFER 	    | DIS   	    |           |
 | Arty 5V - USB 5V  | OPEN          |           |
 
 Picture below presents default configuration for slide switches and jumpers
