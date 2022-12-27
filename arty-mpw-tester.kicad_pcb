@@ -10808,7 +10808,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:0603-cap" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:0603-cap" (layer "B.Cu")
     (tedit 5D5E94D2) (tstamp 0b4c568e-93a6-4f1a-a6b9-73355463944e)
     (at 133.6175 100.0175 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, footprint sligthly under-sized")
@@ -10846,7 +10846,7 @@
       (net 34 "Net-(C8-Pad1)") (pintype "passive") (tstamp 26e13886-8f6d-42b6-94e0-28a09ead614b))
     (pad "2" smd roundrect (at 0.7 0 90) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
       (net 17 "EP") (pintype "passive") (tstamp 9f18c721-e2d7-414b-99f0-0c12be5cca14))
-    (model "${ANT3DMDL}/0603-cap.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-cap.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -10898,7 +10898,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:1206-res" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:1206-res" (layer "B.Cu")
     (tedit 5D5E9367) (tstamp 1960ee2e-c513-4d2b-ac4d-786422f97d75)
     (at 143.35 74.8 -90)
     (descr "http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf")
@@ -10939,7 +10939,7 @@
       (net 123 "Net-(J7-Pad2)") (pintype "passive") (tstamp ce223f6a-fa70-4aa0-87e7-71eb88b000da))
     (pad "2" smd rect locked (at 1.8 0 270) (size 1.5 1.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 8 "/VDDIO") (pintype "passive") (tstamp 6c1508d2-5cd0-4423-b3e6-b4d06ec38797))
-    (model "${ANT3DMDL}/1206-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/1206-res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -11180,7 +11180,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm" (layer "B.Cu")
     (tedit 61E091B7) (tstamp 230d4773-dacb-4b7f-b6d8-ca30bb80366c)
     (at 147.215 80.19 90)
     (descr "VQFN, 16 Pin (https://ww1.microchip.com/downloads/en/DeviceDoc/16L_VQFN-WFS_3x3mm_4MX_C04-00508a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -11254,7 +11254,7 @@
       (net 152 "Net-(R36-Pad2)") (pinfunction "~{PWRDN}") (pintype "input") (tstamp 9df5ce37-305f-4579-9cdd-3e929f0e9140))
     (pad "17" smd rect (at 0 0 90) (size 1.1 1.1) (layers "B.Cu" "B.Mask")
       (net 17 "EP") (pinfunction "EP") (pintype "power_in") (tstamp 5bc89977-7a88-49c6-9243-392d4c609967))
-    (model "${ANT3DMDL}/QFN-16-1EP_3x3mm_P0.5mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/QFN-16-1EP_3x3mm_P0.5mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -11306,7 +11306,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp 28b84c87-48b9-4f26-955e-f592f45162ee)
     (at 131.6175 102.1975)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -11343,7 +11343,7 @@
       (net 34 "Net-(C8-Pad1)") (pintype "passive") (tstamp af328ed7-0eff-4289-acce-492ccffe890c))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
       (net 18 "3V3_FTDI") (pintype "passive") (tstamp 2fd73add-bc5e-45cf-8600-0f59655f9c7b))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -11395,7 +11395,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp 2bd99ac8-ac8d-4c96-a65f-5fcba1c98b6f)
     (at 131.09 104.5 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -11432,14 +11432,14 @@
       (net 18 "3V3_FTDI") (pintype "passive") (tstamp 096a8917-fb68-4894-bd77-f55f1475ea83))
     (pad "2" smd roundrect (at 0.7 0 270) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
       (net 19 "/FTDI/VPHY") (pintype "passive") (tstamp 32ff1595-66b0-4ddf-8adb-a42a4d58f703))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp 3072203f-21fe-4fba-95c4-ed318db9c2e2)
     (at 138.32 75.8 -90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -11513,7 +11513,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:1206-res" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:1206-res" (layer "B.Cu")
     (tedit 5D5E9367) (tstamp 32f79a88-f0a3-4ac9-aad2-bfc84af04619)
     (at 138.32 74.8 -90)
     (descr "http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf")
@@ -11554,7 +11554,7 @@
       (net 127 "Net-(J11-Pad2)") (pintype "passive") (tstamp 3c129488-a11a-40d4-80da-651d75383ac2))
     (pad "2" smd rect locked (at 1.8 0 270) (size 1.5 1.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 7 "/VCCD1") (pintype "passive") (tstamp 2596ecfe-246a-4900-be78-287fcf1deb22))
-    (model "${ANT3DMDL}/1206-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/1206-res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -11786,7 +11786,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp 3cbd5a06-7748-43f2-bf2c-e929387ba57f)
     (at 149.3 73.775 90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -11914,7 +11914,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm" (layer "B.Cu")
     (tedit 61E091B7) (tstamp 43103ee7-8385-4920-8855-bfabbe1fc47e)
     (at 137.35 86.58 90)
     (descr "VQFN, 16 Pin (https://ww1.microchip.com/downloads/en/DeviceDoc/16L_VQFN-WFS_3x3mm_4MX_C04-00508a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -11988,7 +11988,7 @@
       (net 153 "Net-(R37-Pad2)") (pinfunction "~{PWRDN}") (pintype "input") (tstamp b723b64a-d791-4578-b277-4d5e098562eb))
     (pad "17" smd rect (at 0 0 90) (size 1.1 1.1) (layers "B.Cu" "B.Mask")
       (net 17 "EP") (pinfunction "EP") (pintype "power_in") (tstamp 668e60d3-68fb-41a1-a6a7-1874e95a95e4))
-    (model "${ANT3DMDL}/QFN-16-1EP_3x3mm_P0.5mm.step"
+    (model "${KIPRJMOD}/lib/3d-models/QFN-16-1EP_3x3mm_P0.5mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12040,7 +12040,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp 448549ce-3e25-41cc-8e79-338f9a4f401e)
     (at 143.35 75.8 -90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -12249,7 +12249,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp 54c608e2-5122-46bb-bb26-542eb080b7e6)
     (at 135 73.8 90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -12391,7 +12391,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp 5cdb6dfa-5349-4624-a7e3-1061b9ba19de)
     (at 151.95 75.775 -90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -12494,7 +12494,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp 5d942f30-9710-45d7-b988-6209cebf9eb5)
     (at 146 73.8 90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -12568,7 +12568,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp 63669fde-e326-4e01-be89-72cc2c213b44)
     (at 141 75.8 -90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -12687,7 +12687,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:SOT-353" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:SOT-353" (layer "B.Cu")
     (tedit 5D28A629) (tstamp 65c84c36-ba6f-474f-b5bd-72579bd61e47)
     (at 131.62 100.04)
     (descr "5-lead Small Outline SMT package (aka SC-70-5, SC-88A or TSSOP5): reflow soldering footprint, https://www.nxp.com/docs/en/package-information/SOT353.pdf ")
@@ -12733,7 +12733,7 @@
       (net 34 "Net-(C8-Pad1)") (pinfunction "VOUT") (pintype "power_out") (tstamp 9e01e06a-0d90-4cba-8fe3-65d200cc2826))
     (pad "5" smd roundrect (at -0.75 0.9 270) (size 0.6 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "VBUS") (pinfunction "VIN") (pintype "power_in") (tstamp 11fef2e1-6a1d-4811-9292-656a0d25dfe3))
-    (model "${ANT3DMDL}/sc705_model.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/sc705_model.STEP"
       (offset (xyz 0 -0.04 0.71))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -12973,7 +12973,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp 705f7841-e2a8-4051-9f82-2e52b93e5ec2)
     (at 138.32 73.8 90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -13273,7 +13273,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:0603-res" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:0603-res" (layer "B.Cu")
     (tedit 5D5D3E92) (tstamp 8543ef21-5d57-4f36-b554-30f77d00ef42)
     (at 141.96 108.11)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal")
@@ -13310,7 +13310,7 @@
       (net 18 "3V3_FTDI") (pintype "passive") (tstamp ed1a843a-4e5a-4870-9209-1970989f50ad))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
       (net 49 "/FTDI/VPLL") (pintype "passive") (tstamp a0aea8b0-0f9f-4160-82db-6b554559ae5a))
-    (model "${ANT3DMDL}/0603-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/0603-res.step"
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -13587,7 +13587,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp 960f5fd8-dc7a-4660-8532-2486e08da252)
     (at 141 73.8 90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -13797,7 +13797,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp a6870ba2-7a74-47a6-b032-a608dce923a1)
     (at 149.3 75.775 -90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -13826,7 +13826,7 @@
       (net 9 "/VDDA1") (pinfunction "2") (pintype "passive") (tstamp 5979f89d-0047-4c4a-b58c-c308bd5134fe))
   )
 
-  (footprint "antmicro-footprints:1206-res" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:1206-res" (layer "B.Cu")
     (tedit 5D5E9367) (tstamp a6b013e6-b3eb-4c17-9042-5e68fc47f54d)
     (at 135 74.8 -90)
     (descr "http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf")
@@ -13867,7 +13867,7 @@
       (net 126 "Net-(J10-Pad2)") (pintype "passive") (tstamp db5a2a87-8354-4f4d-bdf2-f48219001016))
     (pad "2" smd rect locked (at 1.8 0 270) (size 1.5 1.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 10 "/VCCD") (pintype "passive") (tstamp 5fca467e-17cd-41fa-953a-b141fb3c6bdc))
-    (model "${ANT3DMDL}/1206-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/1206-res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -13919,7 +13919,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:1206-res" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:1206-res" (layer "B.Cu")
     (tedit 5D5E9367) (tstamp acd83e17-821b-4d2d-97d7-d6e141514350)
     (at 149.3 74.775 -90)
     (descr "http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf")
@@ -13960,7 +13960,7 @@
       (net 125 "Net-(J9-Pad2)") (pintype "passive") (tstamp d4c53fee-83d4-4e69-afb4-f67383a6d18f))
     (pad "2" smd rect locked (at 1.8 0 270) (size 1.5 1.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 9 "/VDDA1") (pintype "passive") (tstamp f2abdfd2-c3c5-4367-8c51-848ac7b8401a))
-    (model "${ANT3DMDL}/1206-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/1206-res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -14535,7 +14535,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp c7a4190d-9164-4371-b8e0-7681c9d714d5)
     (at 143.35 73.8 90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -14564,7 +14564,7 @@
       (net 123 "Net-(J7-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 54a62766-e7b3-426e-931e-2f25115c6e1b))
   )
 
-  (footprint "antmicro-footprints:1206-res" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:1206-res" (layer "B.Cu")
     (tedit 5D5E9367) (tstamp c92a22ab-0784-4f3d-a119-8df2c3408cb0)
     (at 151.95 74.775 -90)
     (descr "http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf")
@@ -14605,7 +14605,7 @@
       (net 122 "Net-(J6-Pad2)") (pintype "passive") (tstamp 50371c5c-a95a-45d8-88d0-1d203cf29e41))
     (pad "2" smd rect locked (at 1.8 0 270) (size 1.5 1.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 11 "/VDDA") (pintype "passive") (tstamp 367dcc04-6386-46c0-b757-515c0c46e8a7))
-    (model "${ANT3DMDL}/1206-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/1206-res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -14880,7 +14880,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:1206-res" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:1206-res" (layer "B.Cu")
     (tedit 5D5E9367) (tstamp d072c7ad-ff8f-4388-a9c3-796875166c09)
     (at 141 74.8 -90)
     (descr "http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf")
@@ -14921,7 +14921,7 @@
       (net 128 "Net-(J12-Pad2)") (pintype "passive") (tstamp d9487d50-e2c5-4ef5-9e28-6cd4590f20b8))
     (pad "2" smd rect locked (at 1.8 0 270) (size 1.5 1.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 5 "/VCCD2") (pintype "passive") (tstamp 69a9a8ae-7613-4062-93de-c3d9644e48b4))
-    (model "${ANT3DMDL}/1206-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/1206-res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -15022,7 +15022,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp d2b3ad2a-d624-435f-bb6e-074c209096bd)
     (at 151.95 73.775 90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -15293,7 +15293,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp df7f1ac7-fa2f-4455-b829-209de2f52435)
     (at 146 75.8 -90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -15322,7 +15322,7 @@
       (net 6 "/VDDA2") (pinfunction "2") (pintype "passive") (tstamp 927101ab-3b3c-49f3-8810-8edfba51c062))
   )
 
-  (footprint "antmicro-footprints:1206-res" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:1206-res" (layer "B.Cu")
     (tedit 5D5E9367) (tstamp e1c9f221-b0eb-46c6-8e46-5feb2674f427)
     (at 146 74.8 -90)
     (descr "http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf")
@@ -15363,14 +15363,14 @@
       (net 124 "Net-(J8-Pad2)") (pintype "passive") (tstamp 9fe5e607-60dc-4581-b2f4-ddc069665a37))
     (pad "2" smd rect locked (at 1.8 0 270) (size 1.5 1.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 6 "/VDDA2") (pintype "passive") (tstamp 06df089b-282f-4cc6-8d2f-b12bc53d71e1))
-    (model "${ANT3DMDL}/1206-res.step"
+    (model "${KIPRJMOD}/lib/3d-models/1206-res.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:NetTie-2_SMD_Pad0.15mm" (layer "B.Cu")
     (tedit 5A1CF6D3) (tstamp e22081c8-97f3-4aa7-8d5b-2b3e758df9ae)
     (at 135 75.8 -90)
     (descr "Net tie, 2 pin, 0.15mm  SMD pads")
@@ -15995,7 +15995,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm" (layer "B.Cu")
+  (footprint "arty-mpw-tester-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm" (layer "B.Cu")
     (tedit 5F353EA9) (tstamp ff487f75-ccc9-4222-a55f-c9f6cd2b2a6e)
     (at 136.9 114.9 -90)
     (descr "QFN, 56 Pin (http://www.ti.com/lit/ds/symlink/tlc5957.pdf#page=23), generated with kicad-footprint-generator ipc_noLead_generator.py")
@@ -16164,7 +16164,7 @@
       (net 177 "unconnected-(U2-Pad56)") (pinfunction "EECLK") (pintype "output+no_connect") (tstamp e1fe4058-7a07-4085-b8d6-6e25deb596f8))
     (pad "57" smd rect locked (at 0 0 270) (size 5.9 5.9) (layers "B.Cu" "B.Mask")
       (net 17 "EP") (pinfunction "GND") (pintype "power_in") (tstamp 812ddbb4-9cad-4128-9b68-70113e36b836))
-    (model "${ANT3DMDL}/FT2232H-56Q.STEP"
+    (model "${KIPRJMOD}/lib/3d-models/FT2232H-56Q.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
