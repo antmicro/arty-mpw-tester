@@ -1,6 +1,8 @@
 # Arty MPW tester
 
 ```{image} ../img/arty-mpw-tester.png
+:width: 700px
+:align: center
 ```
 &nbsp;
 
@@ -44,6 +46,8 @@ I2C digipot (`MCP4661-103E/ML`) is used to dynamically adjust 1.8V and 3.3V rail
 Placing jumper on position `FIXED` on either 1.8V and/or 3.3V rail bypasses digipot and forces LDO into fixed voltage regulation on given rail.
 
 ```{image} ../img/arty-mpw-tester-ldo-mode.png
+:width: 500px
+:align: center
 ```
 
 #### Rail EN control
@@ -54,6 +58,8 @@ Both 3.3V and 1.8V rails can be enabled separately using `EN1` and `EN2` pins of
 - `FTDI` - connects the FTDI to the `EN1/2` pins of the dual LDO
 
 ```{image} ../img/arty-mpw-tester-power-ctrl-selector.png
+:width: 500px
+:align: center
 ```
 
 #### Individual rail connections
@@ -62,6 +68,8 @@ Each of the power rails routed on Caravel breakout is exposed on `1x2 2.54mm` pi
 Using this header it is also possible to manually inject voltage into separate rails
 
  ```{image} ../img/arty-mpw-tester-power-rails.png
+:width: 500px
+:align: center
 ```
 
 #### Arty / USB rail connection
@@ -73,6 +81,8 @@ Switch allowing connection of the 5V USB and 5V Arty rails can be set in two pos
 - `CLOSED` - USB 5V and Arty 5V rails are connected, allowing to supply Arty from Arty MPW tester 
 
 ```{image} ../img/arty-mpw-tester-arty-usb-rail-switch.png
+:width: 500px
+:align: center
 ```
 
 ### USB UART
@@ -86,6 +96,8 @@ For MPSSE mode `UART BUFFER` slide switch should be set to `DIS`.
 ```
 
 ```{image} ../img/arty-mpw-tester-uart-buffer-switch.png
+:width: 500px
+:align: center
 ```
 
 
@@ -97,11 +109,15 @@ Using `XCLK SEL` header user can switch between:
 - `EXT` - sourcing XCLK from Arty IO42 pin
 
 ```{image} ../img/arty-mpw-tester-xclk-source-selection.png
+:width: 500px
+:align: center
 ```
 
 When `XCLK SEL` is set to `INT` user can enable and disable onboard oscillator using `INT XCLK EN` header:
 
 ```{image} ../img/arty-mpw-tester-internal-oscillator-ctrl.png
+:width: 500px
+:align: center
 ```
 
 ## Default configuration
@@ -130,6 +146,8 @@ Default configuration for the Arty MPW tester is as follows:
 Picture below presents default configuration for slide switches and jumpers
 
 ```{image} ../img/arty-mpw-tester-default-configuration.png
+:width: 500px
+:align: center
 ```
 
 ## Pinouts
@@ -204,3 +222,59 @@ Picture below presents default configuration for slide switches and jumpers
 | XLCK          	| -      	| P18      	| IO40        	|
 | DIGIPOT SCL   	| -      	| L18      	| SCL         	|
 | DIGIPOT SDA   	| -      	| M18      	| SDA         	|
+
+### MPRJ UART header 
+
+<table>
+<tr><td>
+
+| Pin 	| Signal        |
+|----   |------------   |
+| 1     | VDDIO         |
+| 2     | Caravel TX    |
+| 3     | Caravel RX    |
+| 4     | GND           |
+
+</td><td>
+
+```{image} ../img/arty-mpw-tester-mprj-uart.png
+:width: 400px
+:align: center
+```
+
+</td></tr> </table>
+
+### SPI flash and Caravel MGMT headers
+
+<table><tr>
+<td>
+
+```{image} ../img/arty-mpw-tester-mgmt-headers.png
+:width: 400px
+:align: center
+```
+
+</td>
+<td>
+
+| Pin 	| Signal  | 
+|-----  | ------  |
+| 1     |  GND	  | 
+| 2     |  GPIO	  | 
+| 3     |  XCLK	  | 
+| 4     |  RESET  | 
+
+</td>
+<td>
+
+| Pin 	| Signal  |
+|-----  | ------  | 
+| 1     |  CS	  |
+| 2     |  CLK	  |
+| 3     |  MOSI	  |
+| 4     |  MISO	  |
+| 5     |  CLK	  |
+| 6     |  GND	  |
+
+</td>
+</tr> </table>
