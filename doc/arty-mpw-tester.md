@@ -31,9 +31,6 @@ The Arty MPW tester can be supplied either from Arty or USB connector.
 Both power sources are always connected to the dual LDO via protection diodes.
 ```
 
-
-
-
 #### Fixed/dynamic LDO selection
 
 The Arty MPW tester features dual LDO supplying 1.8V and 3.3V rails.
@@ -66,12 +63,15 @@ Both 3.3V and 1.8V rails can be enabled separately using `EN1` and `EN2` pins of
 
 Each of the power rails routed on Caravel breakout is exposed on `1x2 2.54mm` pin header allowing for selecting which rails are enabled.\
 Using this header it is also possible to manually inject voltage into separate rails.
-All 7 power rails are also connected to power monitors which allow measuring voltage and current used by Caravel breakout.
 
  ```{image} ../img/arty-mpw-tester-power-rails.png
 :width: 500px
 :align: center
 ```
+
+#### Caravel rails measurement
+
+All 7 power rails of Caravel breakout are also connected to power monitors which allow measuring voltage and current used by the board. Measurement is based on 2 4-channel PAC1954T chips. User can communicate with chips with I2C interface and Arty board as controller. SMBus addresses of chips are 0b0011111 and 0b0010000. 
 
 #### Arty / USB rail connection
 ```{warning}
@@ -104,6 +104,12 @@ When `XCLK SEL` is set to `INT` user can enable and disable onboard oscillator u
 :width: 500px
 :align: center
 ```
+
+### FTDI
+
+Tester board is equipped in 4-channel FTDI module (FT4232H). User can communicate with it by built-in USB-C connector, which can also power up whole board.\
+FTDI chip has channels A and C connected to Caravel board with SPI and UART protocols. Channel B communicates with on-board flash memory chip via SPI protocol.\
+Chip has also 3 additional GPIO pins with functions of reset FTDI and 2 enables of dynamic LDO (1V8 and 3V3).  
 
 ## Default configuration
 
@@ -192,17 +198,22 @@ Picture below presents default configuration for slide switches and jumpers
 | IO02             	| ADBUS1              	|
 | IO03             	| ADBUS3              	|
 | IO04             	| ADBUS0              	|
-| IO05             	| ADBUS0 (via buffer) 	|
-| IO06             	| ADBUS1 (via buffer) 	|
+| IO05             	| CDBUS0             	|
+| IO06             	| CDBUS1             	|
+
+### FTDI - SPI Flash interface
+| SCK          	    | BDBUS0              	|
+| SO          	    | BDBUS1              	|
+| SI           	    | BDBUS2              	|
+| CS           	    | BDBUS3              	|
 
 ### Control pins
 
 | Function      	| FTDI   	| FPGA Pin 	| ChipKit pin 	|
 |---------------	|--------	|----------	|-------------	|
-| LDO EN1 (3.3V)    | ACBUS5 	| F5       	| A0          	|
-| LDO EN2 (1.8V) 	| ACBUS6 	| B7       	| A6          	|
-| Caravel RESET 	| ACBUS1 	| N17      	| IO41        	|
-| UART buff EN  	| ACBUS0 	| -        	| -           	|
+| LDO EN1 (3.3V)    | BDBUS5 	| F5       	| A0          	|
+| LDO EN2 (1.8V) 	| BDBUS6 	| B7       	| A6          	|
+| Caravel RESET 	| BDBUS4 	| N17      	| IO41        	|
 | XLCK          	| -      	| P18      	| IO40        	|
 | DIGIPOT SCL   	| -      	| L18      	| SCL         	|
 | DIGIPOT SDA   	| -      	| M18      	| SDA         	|
