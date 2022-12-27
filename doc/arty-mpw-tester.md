@@ -9,7 +9,7 @@ The Arty MPW tester is simple expansion board compatible with Digilent Arty A7 d
 The hardware is open and can be found on GitHub:
 <https://github.com/antmicro/arty-mpw-tester/>
 
-The following instructions explain how to set up the board.
+The following instructions explain how to set up the board for MPW testing.
 
 ## Arty MPW tester configuration
 
@@ -28,12 +28,12 @@ The Arty MPW tester can be supplied either from Arty or USB connector.
 
 Both power sources are always connected to the dual LDO via protection diodes. 
 
-User can decide to short USB 5V and Arty 5V rails. This allows to supply Arty and Arty MPW tester from single USB-C connector.
 
 ```{note}
-This should be done only to supply Arty from Arty MPW tester.
+User can decide to connect USB 5V and Arty 5V rails. 
+This allows to supply Arty MPW tester and Arty from single USB-C connector.
 
-When slide switch connecting Arty 5V rail to USB 5V rail is enabled only one USB should be connected: USB on Arty or USB on Arty MPW tester.
+This feature should be used only to supply Arty from Arty MPW tester.
 ```
 
 The Arty MPW tester features dual LDO supplying 1.8V and 3.3V rails.
@@ -42,11 +42,9 @@ Each rail can be set to either:
 - fixed, supplying fixed 1.8V or 3.3V depending on rail
 - dynamic, allowing user set LDO voltage using I2C digipot
 
-Power can be configured using following jumpers and slide switches.
-
-It allows for switching between fixed 1.8V and 3.3V power supplies
-
 ### UART
+
+FTDI used in design (FT230H) can be used in UART and MPSSE mode. For MPSSE mode UART BUFFER slide switch should be set to DIS
 
 ### XCLK
 
