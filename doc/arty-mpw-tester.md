@@ -136,7 +136,7 @@ Picture below presents default configuration for slide switches and jumpers
 
 ### Caravel - Arty interface
 
-| Caravel breakout 	| FPGA Pin 	| ChipKit pin 	| Special function 	|
+| Caravel breakout 	| FPGA Pin 	| ChipKit pin 	| Dedicated function|
 |------------------	|----------	|-------------	|------------------	|
 | IO00             	| R18      	| IO39        	|                  	|
 | IO01             	| P17      	| IO13        	| SPI MISO         	|
