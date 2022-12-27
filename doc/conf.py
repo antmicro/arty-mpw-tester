@@ -69,7 +69,7 @@ _basic_filename = u'arty-mpw-tester'
 if 'tags' in globals() and 'internal' in tags:
     _basic_filename = 'INTERNAL--' + _basic_filename
 authors = u'Antmicro'
-copyright = authors + u', -2022'
+copyright = authors + u', 2022'
 
 # The short X.Y version.
 version = ''
