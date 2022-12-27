@@ -111,6 +111,11 @@ Tester board is equipped in 4-channel FTDI module (FT4232H). User can communicat
 FTDI chip has channels A and C connected to Caravel board with SPI and UART protocols. Channel B communicates with on-board flash memory chip via SPI protocol.\
 Chip has also 3 additional GPIO pins with functions of reset FTDI and 2 enables of dynamic LDO (1V8 and 3V3).  
 
+```{image} ../img/arty-mpw-tester-usb.png
+:width: 500px
+:align: center
+```
+
 ## Default configuration
 
 Before plugging USB to Arty MPW Tester or Arty board make sure that configuration jumpers and switches are set correctly.
