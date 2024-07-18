@@ -6,8 +6,8 @@
 
   (title_block
     (title "Arty MPW Tester")
-    (date "2022-12-12")
-    (rev "1.0.1")
+    (date "2024-07-18")
+    (rev "1.1.0")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
