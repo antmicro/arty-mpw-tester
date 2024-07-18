@@ -1,6 +1,6 @@
 # Arty MPW Tester
 
-Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2024 [Antmicro](https://www.antmicro.com)
 
 ![MPW tester Arty](/img/arty-mpw-tester.png)
 
