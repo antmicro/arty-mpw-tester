@@ -20,7 +20,7 @@ The design files were prepared in KiCad 6. This design is currently a Work in Pr
 The main repository directory contains KiCad PCB project files, a [LICENSE](LICENSE), and a README.
 The remaining files are stored in the following directories:
 
-* `lib` - contains the KiCad 6 component libraries
+* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com/boards/arty-mpw-tester).
 * `doc` - contains generated schematics and other documentation
 * `img` - contains graphics for this README
 
