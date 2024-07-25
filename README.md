@@ -1,6 +1,6 @@
 # Arty MPW Tester
 
-Copyright (c) 2024 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2022-2024 [Antmicro](https://www.antmicro.com)
 
 ![MPW tester Arty](/img/arty-mpw-tester.png)
 
@@ -13,7 +13,7 @@ The Caravel breakout board allows testing ASIC designs prepared for Multi Projec
 You can learn more about Open Shuttle Program by visiting this [link](https://efabless.com/open_shuttle_program).
 
 The Arty MPW Tester board routes the interfaces from Caravel and provides the necessary power buses.
-The design files were prepared in KiCad 6. This design is currently a Work in Progress (WiP).
+The design files were prepared in KiCad 7.
 
 ## Repository structure
 
